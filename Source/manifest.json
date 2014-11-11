@@ -1,0 +1,15 @@
+{
+	"manifest_version": 1,
+	"name": "Nicknamer Plus",
+	"version": "1.0",
+	"description": "Replaces names with other names (facebook only)",
+	"content_scripts": 
+	[
+		{
+			"matches": ["*://*facebook*/*"],
+			"js": ["content_script.js"],
+			"run_at": "document_end"
+		}
+	]
+}
+
