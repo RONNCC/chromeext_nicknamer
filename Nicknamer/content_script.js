@@ -44,10 +44,10 @@
         // Deal with the easy case
         if(v.match(rege)) {
           v = v.replace(regeg,newname );
+        console.log(v);
         }
         
     }
-    console.log(v);
     textNode.nodeValue = v;
   }
 })();
