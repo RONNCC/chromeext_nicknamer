@@ -44,10 +44,10 @@
         // Deal with the easy case
         if(v.match(rege)) {
           v = v.replace(regeg,newname );
-        console.log(v);
         }
         
     }
+    console.log(v + " " + v.match(new RegExp('Zihui Yang','i')));
     textNode.nodeValue = v;
   }
 })();
